@@ -3,7 +3,8 @@
 
 The project was originally designed to just add paintball, but it now adds more stuff
 - Paintball: Adds Paintball to Minecraft
-- Banhammer: Bans players on hit (target needs to be in gamemode survival or adventure)
+- Killhammer: Adds 2 items that kills players on hit (target needs to be in gamemode survival or adventure)
+- SneakParticles adds particles to sneaking Players
 
 Project Owner:
 - NewDawn0
@@ -13,8 +14,7 @@ Contributors:
 
 
 Info:
-- Ban and Kick requires functions permission level 3 or 4.
-- If the ban and kick hammer doesn't work try changing the function permission level in the server.properties file
+- To use Sneakparticles either change NewDawn0 to <Your Playername> or remove the name parameter in the loop.mcfunction file
 - The custom textures will use up the 420th CustomModelData number
 - To use the "Smoke Grenade" place 2 repeating command blocks in the center of the area that you want to use it in:
     - Commands for the smoke grenade:
