@@ -1,6 +1,8 @@
 # Paintball
 ## Adds Stuff like paintballto Minecraft
 
+Remove the IdleParticles Folder its useless and for some reason I can't delete it
+
 The project was originally designed to just add paintball, but it now adds more stuff
 - Paintball: Adds Paintball to Minecraft
 - Killhammer: Adds 2 items that kills players on hit (target needs to be in gamemode survival or adventure)
