@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "direct_entity": {
+            "nbt": "{SelectedItem:{id::\"minecraft:stone_axe:\",Count:1b,tag:{kickhammer:1b}}}"
+          }
+        }
+      }
+    }
+  }
+}
