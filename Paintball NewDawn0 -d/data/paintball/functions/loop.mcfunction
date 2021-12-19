@@ -15,7 +15,7 @@ execute as @a[scores={lifes=..0}] run scoreboard players set @s health 800
 execute as @a[scores={lifes=0}] run tag @s add Dead
 execute as @a[tag=Dead] run title @a[tag=Dead] title {"text":"You Died"}
 execute as @a[tag=Dead] run gamemode spectator @a[tag=Dead]
-execute as @a[tag=Dead] run tag @a[tag=Dead] remove Death
+execute as @a[tag=Dead] run tag @a[tag=Dead] remove Dead
 execute as @a at @a if entity @e[type=area_effect_cloud,distance=..8] run scoreboard players add @s[distance=..8] SmokeCooldown 1
 execute as @a[scores={SmokeCooldown=1}] at @a[scores={SmokeCooldown=1}] run function paintball:smoke
 execute unless entity @e[type=area_effect_cloud] run scoreboard players set @a SmokeCooldown 0
