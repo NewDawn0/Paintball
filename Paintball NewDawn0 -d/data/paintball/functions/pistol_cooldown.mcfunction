@@ -1,0 +1,1 @@
+execute as @a run scoreboard players set @a pistol_cooldown 1

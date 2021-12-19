@@ -1,0 +1,39 @@
+{
+
+	"custom.pistol_laser": {
+		"sounds": [
+			"custom/pistol_laser" ]
+	},
+	"custom.smoke" :{
+		"sounds": [
+			"custom/smoke" ]
+	},
+	"custom.shotgun_laser" :{
+		"sounds": [
+			"custom/shotgun_laser" ]
+	},
+	"custom.ar_laser" :{
+		"sounds": [
+			"custom/ar_laser" ]
+	},
+    "custom.sniper_laser" :{
+        "sounds": [
+            "custom/sniper_laser" ]
+    },
+    "custom.sniper_reload" :{
+        "sounds": [
+            "custom/sniper_reload" ]
+    },
+    "custom.shotgun_reload" :{
+        "sounds": [
+            "custom/shotgun_reload" ]
+    },
+    "custom.pistol_reload" :{
+        "sounds": [
+            "custom/pistol_reload" ]
+    },
+    "custom.ar_reload" :{
+        "sounds": [
+            "custom/ar_reload" ]
+    }
+}
