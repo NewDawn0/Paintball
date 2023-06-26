@@ -1,25 +1,27 @@
 # Paintball
-## Adds Stuff like paintballto Minecraft
 
+Adds Paintball to Minecraft
 
-The project was originally designed to just add paintball, but it now adds more stuff
-- Paintball: Adds Paintball to Minecraft
-- Killhammer: Adds 2 items that kills players on hit (target needs to be in gamemode survival or adventure)
-- SneakParticles adds particles to sneaking Players
+## Installation
 
-Project Owner:
-- NewDawn0
+1. Put the `./ressourcepacks/Paintball+Killhammer/` directory in the resource
+   packs directory to your resource packs
+2. Move the `./datapacks/Paintball` directory to your world's datapack directory
+3. Enable the datapack in your world `/datapack enable "file/Paintball"`
 
-Contributors:
-- NewDawn0
+- To use the other miscellaneous datapacks this project adds, move the datapacks
+  NOTE: When using the SneakParticles change the name NewDawn0 to your name or
+  @a to enable it for everyone
 
+## Notes
 
-Info:
-- To use Sneakparticles either change NewDawn0 to <Your Playername> or remove the name parameter in the loop.mcfunction file
-- The custom textures will use up the 420th CustomModelData number
-- To use the "Smoke Grenade" place 2 repeating command blocks in the center of the area that you want to use it in:
-    - Commands for the smoke grenade:
-```
+- When using the SneakParticles change the name NewDawn0 to your name or @a to
+  enable it for everyone
+- For lag purposes, the smoke grenade needs to be manually using 2 repeating
+  command blocks with the Commands
+
+```mcfunction
+# I recommend a radius of 300 (blocks)
 execute at @e[distance=..<Your Radius>,type=minecraft:area_effect_cloud,nbt={Potion:"minecraft:weakness"}] run particle minecraft:poof ~ ~1 ~ 5 1.5 5 0 700 force
 effect clear @a[distance=..<Your Radius>] minecraft:weakness
 ```
