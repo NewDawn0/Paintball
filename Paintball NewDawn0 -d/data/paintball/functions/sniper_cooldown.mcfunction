@@ -1,1 +1,0 @@
-execute as @a run scoreboard players set @a sniper_cooldown 1
