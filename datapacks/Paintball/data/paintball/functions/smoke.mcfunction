@@ -1,0 +1,1 @@
+playsound minecraft:custom.smoke master @a[distance=..8] ~ ~ ~ 10 1
